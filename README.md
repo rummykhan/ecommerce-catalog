@@ -31,7 +31,7 @@ Don't use this data / link for production, this is strictly for dev / practice e
     "google_product_category": 267,
     "google_product_type": "Consumer Electronic > Mobiles & Accessories > Mobiles",
     "category": "Mobiles"
-},
+}
 ```
 
 ### Contact
