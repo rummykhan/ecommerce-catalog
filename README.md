@@ -25,7 +25,7 @@ Don't use this data / link for production, this is strictly for dev / practice e
     "description": "With all the fanfare surrounding the launch of apple iphone 7 the phone has finally made it to the market once again staying true to all the hype and expectations. the iphone 7 rose gold comes with the best battery life ever seen on an iphone and it will last two hours longer than the iphone 6s. apple iphone 7 features a new a10 fusion processor which is about 40 percent faster than previous models.",
     "brand": "Apple",
     "inventory": 4,
-    "image": "https:\/\/s2smyshop.s3.ap-south-1.amazonaws.com\/uEBNJDjSYLVgoZLT8vZ9FXCbuL59INu5.png",
+    "image": "https://s2smyshop.s3.ap-south-1.amazonaws.com/uEBNJDjSYLVgoZLT8vZ9FXCbuL59INu5.png",
     "original_price": 2758,
     "discounted_price": 490,
     "google_product_category": 267,
