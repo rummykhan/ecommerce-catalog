@@ -6,19 +6,57 @@ This data has been collected from various sources to serve as a resource for see
 Don't use this data / link for production, this is strictly for dev / practice environments.
 
 ## Features
+
 * JSON data
-* Item Title
-* Item Description
-* Brand (37% available)
-* Inventory availability
-* Image S3 Url (88% available)
-* Original Price
-* Discounted Price
-* `google_product_category` (90% accurate)
-* `google_product_type`
-* Category
+* Categories
+  * Name
+  * Image
+  * Subcategory
+* Items
+  * Item Title
+  * Item Description
+  * Brand (37% available)
+  * Inventory availability
+  * Image S3 Url (88% available)
+  * Original Price
+  * Discounted Price
+  * `google_product_category` (90% accurate)
+  * `google_product_type`
+  * Category
 
 ## Structure
+
+### Category Structure
+```json
+{
+    "name": "Mobiles & Tablets",
+    "image": "https://s2smyshop.s3.ap-south-1.amazonaws.com/aKJh2iFzZO7zuwhNpcAAocWM9C4VePM6.png",
+    "sub_category": [
+        {
+            "name": "Mobiles Accessories",
+            "image": "https://s2smyshop.s3.ap-south-1.amazonaws.com/9mHO15jAewvIS1xRuZvjzv0ow7KYfosY.png"
+        },
+        {
+            "name": "Tablets Accessories",
+            "image": "https://s2smyshop.s3.ap-south-1.amazonaws.com/89KcBT6SsWSohhtS79fxEhO3NduLfVqo.png"
+        },
+        {
+            "name": "Mobiles Cases",
+            "image": "https://s2smyshop.s3.ap-south-1.amazonaws.com/v0YiLKD8wsdgQGSg7ktkQmM26hjD4Bmd.png"
+        },
+        {
+            "name": "Mobiles",
+            "image": "https://s2smyshop.s3.ap-south-1.amazonaws.com/ilu6olqt4N9252hhqWHU1dRBCNd640fg.png"
+        },
+        {
+            "name": "Tablets",
+            "image": "https://s2smyshop.s3.ap-south-1.amazonaws.com/1QXhq1zMX3ODDsQVgKtN7h9sGmsfG4ry.png"
+        }
+    ]
+}
+```
+
+### Item Structure
 ```json
 {
     "title": "Apple iPhone 7 With FaceTime - 32GB, 4G LTE, Gold",
@@ -33,6 +71,5 @@ Don't use this data / link for production, this is strictly for dev / practice e
     "category": "Mobiles"
 }
 ```
-
 ### Contact
 [rehan_manzoor@outlook.com](mailto:rehan_manzoor@outlook.com)
