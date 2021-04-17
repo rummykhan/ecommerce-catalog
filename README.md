@@ -18,8 +18,7 @@ Don't use this data / link for production, this is strictly for dev / practice e
   * Brand (37% available)
   * Inventory availability
   * Image S3 Url (88% available)
-  * Original Price
-  * Discounted Price
+  * Price
   * `google_product_category` (90% accurate)
   * `google_product_type`
   * Category
@@ -64,8 +63,7 @@ Don't use this data / link for production, this is strictly for dev / practice e
     "brand": "Apple",
     "inventory": 4,
     "image": "https://s2smyshop.s3.ap-south-1.amazonaws.com/uEBNJDjSYLVgoZLT8vZ9FXCbuL59INu5.png",
-    "original_price": 2758,
-    "discounted_price": 490,
+    "price": 500,
     "google_product_category": 267,
     "google_product_type": "Consumer Electronic > Mobiles & Accessories > Mobiles",
     "category": "Mobiles"
